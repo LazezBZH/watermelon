@@ -2,6 +2,10 @@
 import "./App.css";
 import { useTranslation, Trans } from "react-i18next";
 import moi from "./assets/moi.jpg";
+import tete from "./assets/tete.jpg";
+import carre from "./assets/carre.webp";
+import requin from "./assets/requin.jpg";
+import melon from "./assets/melon.jpg";
 
 export default function App() {
   const { t: translate, i18n } = useTranslation();
@@ -36,9 +40,33 @@ export default function App() {
           English
         </button>
       </div>
+      <div className="proverbes">
+        <div className="proverbes-txt">
+          <Trans i18nKey="tete">trans</Trans>
+        </div>
+        <img className="tete" src={tete} alt="tete" />
+
+        <div className="proverbes-txt">
+          <Trans i18nKey="carre">trans</Trans>
+        </div>
+        <img className="carre" src={carre} alt="carre" />
+        <div className="proverbes-txt">
+          <Trans i18nKey="requin">trans</Trans>
+        </div>
+        <img className="requin" src={requin} alt="requin" />
+        <div className="proverbes-txt">
+          <Trans i18nKey="melon">trans</Trans>
+        </div>
+
+        <img className="melon" src={melon} alt="melon" />
+      </div>
       <div className="app-welcome">
         <div className="defil">
           <Trans i18nKey="welcome">trans</Trans>
+        </div>
+
+        <div className="links">
+          <button onClick={() => changeLanguage("fr")}>Français</button>
         </div>
         <div div className="moi">
           <img className="moi-img" src={moi} alt="moi" />

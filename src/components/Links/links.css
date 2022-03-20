@@ -1,0 +1,9 @@
+.links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.dataLink {
+  margin: auto;
+  padding: 1rem 5rem;
+}

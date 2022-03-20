@@ -18,6 +18,20 @@ i18n
           requin: "and never become a shark for his colleagues",
           melon:
             "...at all times never have the melon! (sorry for the translation)",
+          learn: "Learn more:",
+          me: "Who am I?",
+          portfolio: "My portfolio",
+          github: "My GitHub",
+          linkedin: "LinkendIn",
+          serious:
+            "I make things seriously but I can also be crazy like when I apply for a job asking me to mention 'watermelon' in my response.",
+          techno:
+            "Interested in all the new technologies, I also appreciate taking the time to make coffee like my great-grandparents did.",
+          old: "I'm not old, just vintage, never call me boomer it's wrong, X is a very nice letter that my generation proudly wears.",
+          earth:
+            "Every day, I try, as possible, to preserve our planet but I will never do without eating a good piece of beef when possible, while taking care not to make my carbon footprint catastrophic I do not wish, however, limit my trips around my home.",
+          blur: "See you soon!",
+          back: "Back",
         },
       },
       fr: {
@@ -29,6 +43,20 @@ i18n
           carre: "il faut parfois savoir rester carré",
           requin: "et ne jamais devenir un requin pour ses collègues",
           melon: "   ...en tout temps ne jamais avoir le melon!",
+          learn: "Découvrez:",
+          me: "Qui suis-je?",
+          portfolio: "Mon portfolio",
+          github: "Mon GitHub",
+          linkedin: "LinkendIn",
+          serious:
+            "Je fais les choses avec beaucoup de sérieux mais sais également faire preuve de folie comme quand je réponds à une offre d'emploi me demandant de mentionner 'pastèque' dans ma réponse.",
+          techno:
+            "Intéressée par toutes les nouvelles technologies j'apprécie aussi de prendre le temps de faire le café comme le faisaient mes arrière grand-parents.",
+          old: "Je ne suis pas vieille, juste vintage, ne m'appelez jamais boomer c'est faux, X est une bien belle lettre que ma génértion arbore fièrement.",
+          earth:
+            "Au quotidien, j'essaye, par un maximum d'actions à mon échelle, de préserver notre planète mais je n'abolirai jamais la côte de boeuf de mon alimentation, tout en veillant à ne pas rendre catastrophique mon emprunte carbone je ne souhaite pas pour autant limiter mes déplacements aux alentours de chez moi.",
+          blur: "Au plaisir de vous rencontrer!",
+          back: "Retour",
         },
       },
     },

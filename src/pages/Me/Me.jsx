@@ -12,6 +12,13 @@ import { Link } from "react-router-dom";
 export default function Me() {
   return (
     <section className="me-section">
+      <div className="link">
+        <Link to="/">
+          <p className="link-p">
+            <Trans i18nKey="back">trans</Trans>
+          </p>
+        </Link>
+      </div>
       <div className="all-me">
         <div className="me">
           <figure className="me-details serious">
@@ -67,10 +74,15 @@ export default function Me() {
         <span className="blur">
           <Trans i18nKey="blur">trans</Trans>
         </span>
-        <Link to="/">
-          <Trans i18nKey="back">trans</Trans>
-        </Link>
+        <div className="link-2">
+          <Link to="/">
+            <p className="link-p">
+              <Trans i18nKey="back">trans</Trans>
+            </p>
+          </Link>
+        </div>
       </div>
     </section>
   );
 }
+// <Trans i18nKey="back">trans</Trans>

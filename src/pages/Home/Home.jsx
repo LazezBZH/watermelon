@@ -12,7 +12,7 @@ export default function App() {
   };
 
   return (
-    <div className="App">
+    <div className="Home App">
       <div className="App-header">
         <h2>{translate("Welcome")}</h2>
         <button

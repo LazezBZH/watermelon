@@ -2,8 +2,38 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  max-width: 850px;
 }
 .dataLink {
   margin: auto;
   padding: 1rem 5rem;
+}
+.image-link {
+  width: 20rem;
+  background-color: rgb(179, 211, 179);
+  padding: 3rem;
+}
+.img-link_git img {
+  width: auto;
+  height: 8rem;
+}
+.img-link_me img {
+  width: auto;
+  height: 8rem;
+}
+.img-link_portfolio img {
+  width: auto;
+  height: 8rem;
+}
+.img-link_linkedin img {
+  width: auto;
+  height: 8rem;
+}
+.txt-links {
+  margin-bottom: 2rem;
+}
+.links a {
+  text-decoration: none;
+  color: green;
+  cursor: url("https://surlapage.fr/widget/cursors/18/1284645.gif"), default;
 }

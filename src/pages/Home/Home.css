@@ -1,7 +1,9 @@
 .home {
-  max-width: 1775px;
+  max-width: 1000px;
 }
-
+h2 {
+  padding: auto 10rem;
+}
 .App-header {
   color: #499167;
   font-size: 1.5rem;

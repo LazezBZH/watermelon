@@ -19,8 +19,8 @@
   background-position: top;
   position: relative;
 }
-.me-section {
-  padding-right: 1rem;
+.me-buttons {
+  margin-top: 2rem;
 }
 figcaption {
   width: 50%;
@@ -99,8 +99,8 @@ figcaption {
 }
 .link {
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 2%;
+  top: 2%;
   background-color: black;
   padding: 0.1rem 0.7rem;
   border: solid #df6971 0.5rem;
@@ -169,5 +169,9 @@ figcaption {
   }
   .container {
     height: 15vh;
+  }
+  .link {
+    right: 1%;
+    top: 0.2%;
   }
 }

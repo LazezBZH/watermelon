@@ -20,7 +20,9 @@ export default function Me() {
             </p>
           </Link>
         </div>
-        <Boutons />
+        <div className="me-buttons">
+          <Boutons />
+        </div>
         <div className="all-me">
           <Figures />
           <div className="me-realisations">

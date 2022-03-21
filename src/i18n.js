@@ -66,7 +66,7 @@ i18n
           Welcome:
             "Salutations, Bénédicte HÉRAULT je suis et mon premier emploi en tant que développeuse front-end je recherche!",
           welcome: "Que la Force soit avec vous!",
-          tete: "Lorsque que dev nous sommes,la tête comme une pastèque parfois avons",
+          tete: "Lorsque que dev nous sommes, la tête comme une pastèque parfois avons",
           carre: "savoir rester carré il le faut parfois",
           requin: "et pour ses collègues un requin ne jamais devenir",
           melon: "   ...en tout temps le melon ne jamais avoir!",

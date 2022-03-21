@@ -17,8 +17,11 @@
   background-size: 4%;
   background-repeat: repeat-x;
   background-position: top;
+  position: relative;
 }
-
+.me-section {
+  padding-right: 1rem;
+}
 figcaption {
   width: 50%;
 }
@@ -61,7 +64,7 @@ figcaption {
   font-size: 2.5rem;
   letter-spacing: 10px;
   margin: auto;
-
+  padding-top: 1rem;
   filter: blur(5px);
 
   overflow: hidden;
@@ -70,11 +73,10 @@ figcaption {
 }
 
 .container {
-  position: absolute;
   height: 10vh;
-  padding: 2rem;
-  margin-top: 1rem;
-  width: 100%;
+  padding: 0;
+  margin: auto;
+  max-width: 1783px;
   overflow: hidden;
 
   background: #000;
@@ -86,7 +88,7 @@ figcaption {
   color: white;
   font-size: 2rem;
   text-decoration: none;
-  margin: 0;
+
   cursor: url("https://surlapage.fr/widget/cursors/10/1291110.gif"), default;
 }
 .link a {
@@ -96,8 +98,9 @@ figcaption {
   cursor: url("https://surlapage.fr/widget/cursors/10/1291110.gif"), default;
 }
 .link {
-  width: 7%;
-  margin: 0.5rem auto auto 90%;
+  position: absolute;
+  right: 0;
+  top: 0;
   background-color: black;
   padding: 0.1rem 0.7rem;
   border: solid #df6971 0.5rem;
@@ -106,4 +109,65 @@ figcaption {
 }
 .link-2 {
   width: 15rem;
+  margin-left: 2rem;
+}
+
+@media screen and (max-width: 1330px) {
+  .me-realisations video {
+    width: 30rem;
+    height: 30rem;
+  }
+  .me-realisations img {
+    margin-top: 5rem;
+    width: 30rem;
+  }
+}
+@media screen and (max-width: 1035px) {
+  .me-realisations video {
+    width: 25rem;
+    height: 25rem;
+  }
+  .me-realisations img {
+    margin-top: 5rem;
+    width: 25rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .all-me {
+    display: block;
+  }
+  .me {
+    width: 90%;
+    margin: auto;
+  }
+  .me-realisations {
+    width: 100%;
+  }
+  .me-realisations video {
+    width: 80%;
+    height: auto;
+    margin-bottom: 5rem;
+  }
+  .me-realisations img {
+    width: 80%;
+    margin-top: 0;
+  }
+  .blur {
+    left: 25%;
+    width: 70%;
+
+    font-size: 1.8rem;
+    letter-spacing: 8px;
+    margin: auto;
+    padding-top: 1rem;
+    filter: blur(5px);
+    line-height: 4rem;
+  }
+  .link-2 {
+    margin-left: 0.8rem;
+    margin-top: 5rem;
+  }
+  .container {
+    height: 15vh;
+  }
 }

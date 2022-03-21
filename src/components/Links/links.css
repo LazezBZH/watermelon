@@ -38,3 +38,23 @@
   font-weight: bold;
   cursor: url("https://surlapage.fr/widget/cursors/18/1284645.gif"), default;
 }
+
+@media screen and (max-width: 850px) {
+  .links {
+    width: 80%;
+  }
+  .img-link_git img,
+  .img-link_portfolio img,
+  .img-link_linkedin img,
+  .img-link_me img {
+    width: 12rem;
+    height: auto;
+    margin-left: 5rem;
+  }
+}
+@media screen and (max-width: 620px) {
+  .links {
+    width: 100%;
+    margin-left: -2rem;
+  }
+}

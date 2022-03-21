@@ -47,3 +47,12 @@
   height: 10rem;
   object-fit: contain;
 }
+
+@media screen and (max-width: 1330px) {
+  .serious,
+  .earth,
+  .old,
+  .techno {
+    margin: 3.5rem auto;
+  }
+}

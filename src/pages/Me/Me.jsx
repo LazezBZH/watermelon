@@ -11,39 +11,41 @@ export default function Me() {
   const { i18n } = useTranslation();
 
   return (
-    <section className="me-section App">
-      <div className="link">
-        <Link to="/">
-          <p className="link-p">
-            <Trans i18nKey="back">trans</Trans>
-          </p>
-        </Link>
-      </div>
-      <Boutons />
-      <div className="all-me">
-        <Figures />
-        <div className="me-realisations">
-          <video controls>
-            <source src={saturnin} type="video/mp4" />
-          </video>
-          <video controls>
-            <source src={portfolio} type="video/mp4" />
-          </video>
-          <div className="image-cv">
-            <img src={cv} alt="cv" />
-            <button className="download">
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://drive.google.com/file/d/1mXiWgtruxoyUiklIptsqh0omSrXsYv2V/view?usp=sharing"
-                download="CV Bénédicte HÉRAULT développeuse fonrt-end.pdf"
-              >
-                <Trans i18nKey="download">trans</Trans>
-              </a>
-            </button>
+    <>
+      <section className="me-section App">
+        <div className="link">
+          <Link to="/">
+            <p className="link-p">
+              <Trans i18nKey="back">trans</Trans>
+            </p>
+          </Link>
+        </div>
+        <Boutons />
+        <div className="all-me">
+          <Figures />
+          <div className="me-realisations">
+            <video controls>
+              <source src={saturnin} type="video/mp4" />
+            </video>
+            <video controls>
+              <source src={portfolio} type="video/mp4" />
+            </video>
+            <div className="image-cv">
+              <img src={cv} alt="cv" />
+              <button className="download">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://drive.google.com/file/d/1mXiWgtruxoyUiklIptsqh0omSrXsYv2V/view?usp=sharing"
+                  download="CV Bénédicte HÉRAULT développeuse fonrt-end.pdf"
+                >
+                  <Trans i18nKey="download">trans</Trans>
+                </a>
+              </button>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
       <div className="container">
         <span className="blur">
           <Trans i18nKey="blur">trans</Trans>
@@ -56,6 +58,6 @@ export default function Me() {
           </Link>
         </div>
       </div>
-    </section>
+    </>
   );
 }

@@ -32,6 +32,7 @@ i18n
             "Every day, I try, as possible, to preserve our planet but I will never do without eating a good piece of beef when possible, while taking care not to make my carbon footprint catastrophic I do not wish, however, limit my trips around my home.",
           blur: "See you soon!",
           back: "Back",
+          download: "Download",
         },
       },
       fr: {
@@ -57,6 +58,7 @@ i18n
             "Au quotidien, j'essaye, par un maximum d'actions à mon échelle, de préserver notre planète mais je n'abolirai jamais la côte de boeuf de mon alimentation, tout en veillant à ne pas rendre catastrophique mon emprunte carbone je ne souhaite pas pour autant limiter mes déplacements aux alentours de chez moi.",
           blur: "Au plaisir de vous rencontrer!",
           back: "Retour",
+          download: "Télécharger",
         },
       },
       yo: {
@@ -80,8 +82,9 @@ i18n
           old: "Vieille je ne suis pas , juste vintage, jamais boomer ne m'appelez, c'est faux, X est une bien belle lettre que ma génération fièrement arbore.",
           earth:
             "Au quotidien, par un maximum d'actions à mon échelle, de préserver notre planète, j'essaye mais jamais la côte de boeuf de mon alimentation je n'abolirai, tout en veillant à ne pas rendre catastrophique mon emprunte carbone, limiter mes déplacements aux alentours de chez moi, pour autant, je ne souhaite pas.",
-          blur: "De vous rencontrer galactiquement honnorée je serais!",
+          blur: "De vous rencontrer galactiquement honorée je serais!",
           back: "Les origines",
+          download: "Conquérir",
         },
       },
     },

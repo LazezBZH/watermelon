@@ -6,7 +6,7 @@ import Links from "../../components/Links/Links";
 import Proverbes from "../../components/Proverbes/Proverbes";
 import Boutons from "../../components/Boutons/Boutons";
 
-export default function App() {
+export default function Home() {
   const { t: translate } = useTranslation();
 
   return (
@@ -17,7 +17,7 @@ export default function App() {
       <Boutons />
       <div className="main">
         <Proverbes />
-        <div className="section">
+        <div className="right-section">
           <div className="app-welcome">
             <div className="defil">
               <Trans i18nKey="welcome">trans</Trans>

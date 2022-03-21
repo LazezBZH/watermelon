@@ -1,16 +1,15 @@
-//import techno from "../../assets/techno.jpeg";
-//import old from "../../assets/old.jpg";
-//import earth from "../../assets/earth.jpg";
-//import serious from "../../assets/serious.jpg";
 import portfolio from "../../assets/Lazez portfolio anonymisé.mp4";
 import saturnin from "../../assets/petit canard en plastique cherche bureau où se poser.mp4";
 import cv from "../../assets/cv janv 22.png";
 import "./Me.css";
-import { Trans } from "react-i18next";
+import { Trans, useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import Figures from "../../components/Figures/Figures";
+import Boutons from "../../components/Boutons/Boutons";
 
 export default function Me() {
+  const { i18n } = useTranslation();
+
   return (
     <section className="me-section App">
       <div className="link">
@@ -20,6 +19,7 @@ export default function Me() {
           </p>
         </Link>
       </div>
+      <Boutons />
       <div className="all-me">
         <Figures />
         <div className="me-realisations">
@@ -38,7 +38,7 @@ export default function Me() {
                 href="https://drive.google.com/file/d/1mXiWgtruxoyUiklIptsqh0omSrXsYv2V/view?usp=sharing"
                 download="CV Bénédicte HÉRAULT développeuse fonrt-end.pdf"
               >
-                Télécharger
+                <Trans i18nKey="download">trans</Trans>
               </a>
             </button>
           </div>
@@ -59,4 +59,3 @@ export default function Me() {
     </section>
   );
 }
-// <Trans i18nKey="back">trans</Trans>

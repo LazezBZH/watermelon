@@ -11,7 +11,7 @@ i18n
       en: {
         translations: {
           Welcome:
-            "Hey, I'm Bénédicte HÉRAULT, loocking for my first job as a front-end dev!",
+            "Hey, I'm Bénédicte HÉRAULT, looking for my first job as a front-end dev!",
           welcome: "Hello World!",
           tete: "When you are a dev you may sometimes have the head like a watermelon",
           carre: "sometimes you have to know how to stay square",

@@ -12,23 +12,17 @@
   margin-left: 0.2rem;
   font-size: 1.2rem;
 }
-.me-details {
-  border: solid black 0.3rem;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-around;
-  margin: 1rem auto;
-  padding-top: 2rem;
-  padding-bottom: 1rem;
+.me-section {
+  background-image: url(../../assets/past.png);
+  background-size: 4%;
+  background-repeat: repeat-x;
+  background-position: top;
 }
+
 figcaption {
   width: 50%;
 }
-.me-details img {
-  width: 10rem;
-  height: 10rem;
-  object-fit: contain;
-}
+
 .me-realisations {
   display: flex;
   flex-wrap: wrap;
@@ -56,44 +50,18 @@ figcaption {
   cursor: url("https://surlapage.fr/widget/cursors/16/1281092.gif"), default;
 }
 
-.serious {
-  color: pink;
-}
-.serious:hover {
-  color: rgb(243, 102, 125);
-  font-weight: bold;
-}
-.old {
-  color: rgb(150, 143, 105);
-}
-.old:hover {
-  color: rgb(100, 91, 39);
-  font-weight: bold;
-}
-.techno {
-  color: rgb(128, 128, 247);
-}
-.techno:hover {
-  color: blue;
-  font-weight: bold;
-}
-.earth {
-  color: rgb(106, 121, 84);
-}
-.earth:hover {
-  color: green;
-  font-weight: bold;
-}
 @import url("https://fonts.googleapis.com/css?family=Overpass");
 
 .blur {
   position: absolute;
+  left: 15%;
+  width: 80%;
   color: #fefefe;
   font-family: "Overpass", sans-serif;
   font-size: 2.5rem;
   letter-spacing: 10px;
   margin: auto;
-  width: 100%;
+
   filter: blur(5px);
 
   overflow: hidden;
@@ -105,7 +73,7 @@ figcaption {
   position: absolute;
   height: 10vh;
   padding: 2rem;
-  margin-top: 4rem;
+  margin-top: 1rem;
   width: 100%;
   overflow: hidden;
 
@@ -128,13 +96,14 @@ figcaption {
   cursor: url("https://surlapage.fr/widget/cursors/10/1291110.gif"), default;
 }
 .link {
-  width: 5%;
+  width: 7%;
   margin: 0.5rem auto auto 90%;
   background-color: black;
   padding: 0.1rem 0.7rem;
+  border: solid #df6971 0.5rem;
   border-radius: 1rem;
   text-align: center;
 }
 .link-2 {
-  width: 7rem;
+  width: 15rem;
 }

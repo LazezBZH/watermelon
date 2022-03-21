@@ -3,15 +3,14 @@
 }
 h2 {
   padding: auto 10rem;
+  background-color: #df6971;
 }
 .App-header {
-  color: #499167;
+  color: #305f44;
   font-size: 1.5rem;
   padding: 2rem;
-}
-button {
-  margin: 0.5rem;
-  padding: 0.2rem;
+  background-image: url(../../assets/past.png);
+  background-size: 7%;
 }
 
 .moi {
@@ -19,7 +18,7 @@ button {
   height: 6rem;
   overflow: hidden;
   animation: myAnim2 5s ease-in-out 0s infinite normal forwards;
-  border: solid 0.5rem #499167;
+  border: solid 0.5rem #305f44;
   border-radius: 6rem;
   margin: -3rem auto 1rem auto;
 }
@@ -41,11 +40,12 @@ button {
 }
 
 .app-welcome {
+  color: #df6970;
   width: 80%;
   margin: 1rem auto 2rem;
-  border: 0.8rem solid #499167;
+  border: 0.8rem solid #305f44;
   overflow: hidden;
-  box-shadow: 0 0.25rem 0.5rem #499167, inset 0 0 1rem 0.25rem #499167;
+  box-shadow: 0 0.25rem 0.5rem #499167, inset 0 0 1rem 0.25rem #305f44;
   background-color: #4991671c;
 }
 @keyframes myAnim2 {

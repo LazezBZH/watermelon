@@ -52,11 +52,36 @@ i18n
             "Je fais les choses avec beaucoup de sérieux mais sais également faire preuve de folie comme quand je réponds à une offre d'emploi me demandant de mentionner 'pastèque' dans ma réponse.",
           techno:
             "Intéressée par toutes les nouvelles technologies j'apprécie aussi de prendre le temps de faire le café comme le faisaient mes arrière grand-parents.",
-          old: "Je ne suis pas vieille, juste vintage, ne m'appelez jamais boomer c'est faux, X est une bien belle lettre que ma génértion arbore fièrement.",
+          old: "Je ne suis pas vieille, juste vintage, ne m'appelez jamais boomer c'est faux, X est une bien belle lettre que ma génération arbore fièrement.",
           earth:
             "Au quotidien, j'essaye, par un maximum d'actions à mon échelle, de préserver notre planète mais je n'abolirai jamais la côte de boeuf de mon alimentation, tout en veillant à ne pas rendre catastrophique mon emprunte carbone je ne souhaite pas pour autant limiter mes déplacements aux alentours de chez moi.",
           blur: "Au plaisir de vous rencontrer!",
           back: "Retour",
+        },
+      },
+      yo: {
+        translations: {
+          Welcome:
+            "Salutations, Bénédicte HÉRAULT je suis et mon premier emploi en tant que développeuse front-end je recherche!",
+          welcome: "Que la Force soit avec vous!",
+          tete: "Lorsque que dev nous sommes,la tête comme une pastèque parfois avons",
+          carre: "savoir rester carré il le faut parfois",
+          requin: "et pour ses collègues un requin ne jamais devenir",
+          melon: "   ...en tout temps le melon ne jamais avoir!",
+          learn: "Explorez:",
+          me: "Me connaître tu pourras!",
+          portfolio: "Mon portfolio tu découvriras!",
+          github: "Mon GitHub tu visiteras!",
+          linkedin: "Dans LinkendIn tu voyageras!",
+          serious:
+            "Avec beaucoup de sérieux les choses je fais mais également faire preuve de folie comme quand je réponds à une offre d'emploi me demandant de mentionner 'pastèque' dans ma réponse je sais.",
+          techno:
+            "Intéressée par toutes les nouvelles technologies, de prendre le temps de faire le café comme le faisaient mes ayeux aussi j'apprécie.",
+          old: "Vieille je ne suis pas , juste vintage, jamais boomer ne m'appelez, c'est faux, X est une bien belle lettre que ma génération fièrement arbore.",
+          earth:
+            "Au quotidien, par un maximum d'actions à mon échelle, de préserver notre planète, j'essaye mais jamais la côte de boeuf de mon alimentation je n'abolirai, tout en veillant à ne pas rendre catastrophique mon emprunte carbone, limiter mes déplacements aux alentours de chez moi, pour autant, je ne souhaite pas.",
+          blur: "De vous rencontrer galactiquement honnorée je serais!",
+          back: "Les origines",
         },
       },
     },

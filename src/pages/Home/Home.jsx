@@ -4,40 +4,17 @@ import moi from "../../assets/moi.jpg";
 
 import Links from "../../components/Links/Links";
 import Proverbes from "../../components/Proverbes/Proverbes";
+import Boutons from "../../components/Boutons/Boutons";
 
 export default function App() {
-  const { t: translate, i18n } = useTranslation();
-  const changeLanguage = (lng) => {
-    i18n.changeLanguage(lng);
-  };
+  const { t: translate } = useTranslation();
 
   return (
     <div className="Home App">
       <div className="App-header">
         <h2>{translate("Welcome")}</h2>
-        <button
-          style={{
-            backgroundColor: i18n.resolvedLanguage === "fr" ? "white" : "black",
-            fontWeight: i18n.resolvedLanguage === "fr" ? "bolder" : "normal",
-            color: i18n.resolvedLanguage === "fr" ? "black" : "white",
-            borderColor: i18n.resolvedLanguage === "fr" ? "red" : "black",
-          }}
-          onClick={() => changeLanguage("fr")}
-        >
-          Français
-        </button>
-        <button
-          style={{
-            backgroundColor: i18n.resolvedLanguage === "en" ? "white" : "black",
-            fontWeight: i18n.resolvedLanguage === "en" ? "bolder" : "normal",
-            color: i18n.resolvedLanguage === "en" ? "black" : "white",
-            borderColor: i18n.resolvedLanguage === "en" ? "red" : "black",
-          }}
-          onClick={() => changeLanguage("en")}
-        >
-          English
-        </button>
       </div>
+      <Boutons />
       <div className="main">
         <Proverbes />
         <div className="section">

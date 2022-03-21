@@ -1,0 +1,49 @@
+.serious {
+  color: #df6970;
+}
+.serious:hover {
+  color: #db4852;
+  font-weight: bold;
+}
+.old {
+  color: rgb(177, 138, 66);
+}
+.old:hover {
+  color: rgb(179, 127, 32);
+  font-weight: bold;
+}
+.techno {
+  color: rgb(128, 128, 247);
+}
+.techno:hover {
+  color: blue;
+  font-weight: bold;
+}
+.earth {
+  color: rgb(106, 121, 84);
+}
+.earth:hover {
+  color: green;
+  font-weight: bold;
+}
+.serious,
+.earth,
+.old,
+.techno {
+  border: solid black 0.3rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  margin: 1rem auto;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+.serious img,
+.earth img,
+.old img,
+.techno img {
+  width: 10rem;
+  height: 10rem;
+  object-fit: contain;
+}
